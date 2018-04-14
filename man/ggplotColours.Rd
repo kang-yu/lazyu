@@ -4,10 +4,10 @@
 \alias{ggplotColours}
 \title{Use the ggplot style colors}
 \usage{
-ggplotColours(n = 6, h = c(0, 360) + 15)
+ggplotColours(n = 1, h = c(0, 360) + 15)
 }
 \arguments{
-\item{n}{The number of colors to be generated.}
+\item{n}{An integer to define the number of colors to be generated .}
 }
 \description{
 Create a vector of colors of the ggplot style.

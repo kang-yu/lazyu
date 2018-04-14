@@ -7,6 +7,7 @@
 #' @examples
 #' explorer("C:/Users/")
 #' explorer("/Users/")
+#' @export
 
 explorer <- function(path){
   switch(Sys.info()[['sysname']],

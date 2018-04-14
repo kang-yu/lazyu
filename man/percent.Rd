@@ -9,7 +9,7 @@ percent(x, digits = 2, format = "f", ...)
 \arguments{
 \item{x}{A numeric vector.}
 
-\item{digits}{A integer to define the number of dicimals, default is 2.}
+\item{digits}{An integer to define the number of dicimals, default is 2.}
 
 \item{\dots}{Arguments passed to \code{\link{formatC}}.}
 }
