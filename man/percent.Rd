@@ -9,15 +9,15 @@ percent(x, digits = 2, format = "f", ...)
 \arguments{
 \item{x}{A numeric vector.}
 
-\item{digits}{A integer to define the number of dicimals.}
+\item{digits}{A integer to define the number of dicimals, default is 2.}
 
 \item{\dots}{Arguments passed to \code{\link{formatC}}.}
 }
 \description{
-Formats numbers to percentage.
+Formats a numeric vector to percentage string vector.
 }
 \examples{
-percent(1:3)
+percent(1:3, 1)
 }
 \seealso{
 \code{\link{formatC}} and \code{\link{sprintf}}
