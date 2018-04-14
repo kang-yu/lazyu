@@ -9,7 +9,7 @@
 
 explorer <- function(path){
   switch(Sys.info()[['sysname']],
-         Windows= {shell(paste("exploer", path), intern = TRUE, translate = TRUE)},
+         Windows= {shell(paste("explorer", path), intern = TRUE, translate = TRUE)},
          Linux  = {system(paste("xdg-open", path))},
          Darwin = {system2("open", path)})
 }
