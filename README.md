@@ -1,35 +1,25 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
-# lazyu
+lazyu
+=====
 
 The goal of `{lazyu}` is to put my often used R functions into a package ..., i.e. reduce the use of source()
 
-## Installation
+Installation
+------------
 
 You can install lazyu from github with:
 
-```{r gh-installation, eval = FALSE}
+``` r
 # install.packages("devtools")
 devtools::install_github("kang-yu/lazyu")
 ```
 
-## Example
+Example
+-------
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 ## basic example code
-
 ```
