@@ -2,7 +2,7 @@
 % Please edit documentation in R/explorer.R
 \name{explorer}
 \alias{explorer}
-\title{Open a file or folder.}
+\title{Open a file or folder}
 \usage{
 explorer(path)
 }
@@ -10,12 +10,12 @@ explorer(path)
 \item{path}{The path string to a file or directory.}
 }
 \description{
-\code{explorer} opens a file or folder on your computer, supports Windows, Mac and Linux.
+\code{explorer} opens a file or folder on your Windows, Mac or Linux computer.
 }
 \examples{
 explorer("C:/Users/")
-explorer("/Users/kang")
+explorer("/Users/")
 }
 \seealso{
-\code{\link[base]{shell}}.
+\code{\link[base]{shell}} and \code{\link[base]{system}}
 }
