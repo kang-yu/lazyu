@@ -29,5 +29,5 @@ cor_mtest <- function(mat, ...) {
     }
   }
   colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
-  return(p.mat)
+  p.mat
 }
