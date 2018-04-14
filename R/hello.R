@@ -20,6 +20,18 @@
 #   when create the Rstudio project)
 #
 #
+# Also instead of adding each file manually, we could do something like:
+#
+#   git add --all
+#   OR
+#   git add -A
+#
+# This will also remove any files not present or deleted (Tracked files
+# in the current working directory which are now absent). If you only
+# want to add files which are tracked and have changed, you would want to do:
+#
+#   git add -u
+#
 #
 #
 #
