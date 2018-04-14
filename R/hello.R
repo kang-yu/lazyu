@@ -54,5 +54,5 @@
 #   4: Add README.me by using 'devtools::use_readme_rmd()'
 
 hello <- function() {
-  print("Hello, world!")
+  print("Hello, welcome!")
 }

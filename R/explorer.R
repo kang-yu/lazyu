@@ -1,11 +1,12 @@
-#' Open a file or folder.
+#' Open a file or folder
 #'
-#' \code{explorer} opens a file or folder on your computer, supports Windows, Mac and Linux.
+#' \code{explorer} opens a file or folder on your Windows, Mac or Linux computer.
 #'
 #' @param path The path string to a file or directory.
+#' @seealso \code{\link[base]{shell}} and \code{\link[base]{system}}
 #' @examples
 #' explorer("C:/Users/")
-#' explorer("/Users/kang")
+#' explorer("/Users/")
 
 explorer <- function(path){
   switch(Sys.info()[['sysname']],
