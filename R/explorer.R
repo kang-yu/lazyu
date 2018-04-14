@@ -1,6 +1,6 @@
 #' Open a file or folder.
 #'
-#' \code{explorer} open a file or folder on your computer, supports Windows, Mac and Linux.
+#' \code{explorer} opens a file or folder on your computer, supports Windows, Mac and Linux.
 #'
 #' @param path The path string to a file or directory.
 #' @examples
