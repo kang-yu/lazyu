@@ -3,10 +3,8 @@ Type: Package
 Title: A Collection of Lazy Man's Utilities
 Version: 0.1.0
 Author: Kang Yu
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <me@kangyu.org>
 Description: A Collection of Lazy Man's Utilities of R for simplify day-to-day work using R.
-    More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
