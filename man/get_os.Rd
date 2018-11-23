@@ -2,16 +2,14 @@
 % Please edit documentation in R/get_os.R
 \name{get_os}
 \alias{get_os}
-\title{Get OS imformation.
-https://www.r-bloggers.com/identifying-the-os-from-r/
-https://stackoverflow.com/questions/4747715/how-to-check-the-os-within-r
-https://stackoverflow.com/questions/4463087/detecting-operating-system-in-r-e-g-for-adaptive-rprofile-files}
+\title{Get OS imformation.}
 \usage{
 get_os()
 }
 \description{
 Get OS imformation.
-https://www.r-bloggers.com/identifying-the-os-from-r/
-https://stackoverflow.com/questions/4747715/how-to-check-the-os-within-r
-https://stackoverflow.com/questions/4463087/detecting-operating-system-in-r-e-g-for-adaptive-rprofile-files
+}
+\examples{
+get_os()
+which_os()
 }
