@@ -19,6 +19,11 @@ append_list(list, obj, obj.name, overwrite = TRUE)
 \description{
 Append r object to a list
 }
+\examples{
+list <- list(c("a", "b"))
+x <- list(c(1:5))
+append_list(list, x, "X")
+}
 \seealso{
 \code{\link{hcl}}
 }

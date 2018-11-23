@@ -7,6 +7,8 @@
 #'   \item{list_new}
 #' @seealso \code{\link{hcl}}
 #' @examples
+#' list <- list(c("a", "b"))
+#' x <- list(c(1:5))
 #' append_list(list, x, "X")
 #' @export
 
