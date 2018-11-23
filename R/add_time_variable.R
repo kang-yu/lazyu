@@ -2,7 +2,7 @@
 #'
 #' @param df A dataframe.
 #' @param datevar A char string of the date variable.
-#'
+#' @param \dots Arguments ... to be implemented in the future
 #' @return
 #'   \item{df}{Returns a df containing the created variables: month, month.abb, monthday, week, weekday, etc.}
 
