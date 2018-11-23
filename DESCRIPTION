@@ -10,6 +10,7 @@ Description: A Collection of Lazy Man's Utilities of R for simplify day-to-day w
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 URL: http://github.com/kang-yu/lazyu
 BugReports: http://github.com/kang-yu/lazyu/issues
+Suggests: testthat
