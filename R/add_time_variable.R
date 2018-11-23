@@ -7,7 +7,6 @@
 #'   \item{df}{Returns a df containing the created variables: month, month.abb, monthday, week, weekday, etc.}
 #'
 #' @export
-#' @importFrom plyr ddply
 
 add_variable_monthweek <- function(df, datevar = "date"){
 
@@ -46,8 +45,8 @@ add_variable_monthweek <- function(df, datevar = "date"){
   df$week <- week
 
   # library(plyr) for adding df$monthweek
-  # df <- plyr::ddply(df, .(month), transform, monthweek = 1 + week - min(week))
-  df <- ddply(df, .(month.abb), transform, monthweek = 1 + week - min(week))
+  df <- plyr::ddply(df, .(month), transform, monthweek = 1 + week - min(week))
+  # df <- ddply(df, .(month.abb), transform, monthweek = 1 + week - min(week))
 
   return(df)
 }
