@@ -4,7 +4,7 @@
 #'
 #' @param n An integer to define the number of colors to be generated .
 #' @seealso \code{\link{hcl}}
-#' @example
+#' @examples
 #' ggplotColours(3)
 #' @export
 

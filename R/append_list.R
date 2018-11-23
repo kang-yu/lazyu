@@ -6,10 +6,8 @@
 #' @return
 #'   \item{list_new}
 #' @seealso \code{\link{hcl}}
-#' @example
-#' append_list(list, x, "X")
+#' @example append_list(list, x, "X")
 #' @export
-
 
 append_list <- function(list, obj, obj.name, overwrite=TRUE){
   if (!is.list(obj)) obj <- list(obj)
