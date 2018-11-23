@@ -18,8 +18,9 @@ devtools::install_github("kang-yu/lazyu")
 Example
 -------
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to open a directory from r cmd line:
 
 ``` r
 ## basic example code
+explorer()
 ```

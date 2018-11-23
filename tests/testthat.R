@@ -1,4 +1,10 @@
+# skip_on_cran()
+
 library(testthat)
 library(lazyu)
 
-test_check("lazyu")
+string <- get_os()
+
+test_that("string system name", {
+  expect_match(string, "windows", ignore.case = TRUE)
+})
