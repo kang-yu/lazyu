@@ -1,6 +1,6 @@
 Package: lazyu
 Type: Package
-Title: A Collection of Lazy Man's Utilities
+Title: LAZY-man's Utilities - A Collection of R functions
 Version: 0.1.0
 Author: Kang Yu
 Maintainer: The package maintainer <me@kangyu.org>
