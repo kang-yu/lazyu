@@ -31,5 +31,5 @@ This is a basic example which shows you how to open a directory from r cmd line:
 
 ```{r example}
 ## basic example code
-explorer()
+explorer(getwd())
 ```
