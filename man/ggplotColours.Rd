@@ -12,6 +12,9 @@ ggplotColours(n = 1, h = c(0, 360) + 15)
 \description{
 Create a vector of colors of the ggplot style.
 }
+\examples{
+ggplotColours(3)
+}
 \seealso{
 \code{\link{hcl}}
 }
