@@ -5,6 +5,7 @@
 #' @param path The path string to a file or directory.
 #' @seealso \code{\link[base]{shell}} and \code{\link[base]{system}}
 #' @examples
+#' explorer(getwd())
 #' explorer("C:/Users/")
 #' explorer("/Users/")
 #' @export

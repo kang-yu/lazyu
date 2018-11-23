@@ -2,20 +2,18 @@
 % Please edit documentation in R/add_time_variable.R
 \name{add_variable_monthweek}
 \alias{add_variable_monthweek}
-\title{Add time variables to a dataframe based on existing datetime variable}
+\title{Add additional time variables to a dataframe based on an existing date/time variable.}
 \usage{
-add_variable_monthweek(df, datevar = "date", ...)
+add_variable_monthweek(df, datevar = "date")
 }
 \arguments{
 \item{df}{A dataframe.}
 
 \item{datevar}{A char string of the date variable.}
-
-\item{\dots}{Arguments ... to be implemented in the future}
 }
 \value{
 \item{df}{Returns a df containing the created variables: month, month.abb, monthday, week, weekday, etc.}
 }
 \description{
-Add time variables to a dataframe based on existing datetime variable
+Add additional time variables to a dataframe based on an existing date/time variable.
 }

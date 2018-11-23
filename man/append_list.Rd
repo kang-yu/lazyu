@@ -12,6 +12,8 @@ append_list(list, obj, obj.name, overwrite = TRUE)
 \item{obj}{R object to be appended to the list.}
 
 \item{obj.name}{R object name to be used to the list.}
+
+\item{overwrite}{logical value indicates whether overwrite object with the same name.}
 }
 \value{
 \item{list_new}

@@ -7,7 +7,9 @@
 ggplotColours(n = 1, h = c(0, 360) + 15)
 }
 \arguments{
-\item{n}{An integer to define the number of colors to be generated .}
+\item{n}{An integer to define the number of colors to be generated.}
+
+\item{h}{A two element vector defining the hue of the color specified for the HCL Color.}
 }
 \description{
 Create a vector of colors of the ggplot style.

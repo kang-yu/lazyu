@@ -1,14 +1,14 @@
-#' Add time variables to a dataframe based on existing datetime variable
+#' Add additional time variables to a dataframe based on an existing date/time variable.
 #'
 #' @param df A dataframe.
 #' @param datevar A char string of the date variable.
-#' @param \dots Arguments ... to be implemented in the future
+#'
 #' @return
 #'   \item{df}{Returns a df containing the created variables: month, month.abb, monthday, week, weekday, etc.}
 #'
 #' @export
 
-add_variable_monthweek <- function(df, datevar = "date", ...){
+add_variable_monthweek <- function(df, datevar = "date"){
 
   if (!is.data.frame(df)){
     warning("df should be a dataframe")
@@ -22,7 +22,8 @@ add_variable_monthweek <- function(df, datevar = "date", ...){
   }
 
   # Addd month variables
-  df$month <- as.numeric(strftime(df$date, "%m"))
+  month <- as.numeric(strftime(df$date, "%m"))
+  df$month <- month
   df$month.abb <- factor(df$month, levels=1:max(df$month), labels=month.abb[1:max(df$month)], ordered=TRUE)
 
   # %j: Day of year as decimal number (001–366).
@@ -40,11 +41,12 @@ add_variable_monthweek <- function(df, datevar = "date", ...){
   df$weekdayf <- factor(df$weekday, levels=rev(0:6), labels=rev(c("Sun","Mon","Tue","Wed","Thu","Fri","Sat")),
                           ordered=TRUE)
 
-  df$week <- as.numeric(strftime(df$date, "%W"))
+  week <- as.numeric(strftime(df$date, "%W"))
+  df$week <- week
 
   # library(plyr) for df$monthweek
   # df <- ddply(df, .(month.abb), transform, monthweek = 1 + week - min(week))
   df <- plyr::ddply(df, .(month), transform, monthweek = 1 + week - min(week))
-  return(df)
 
+  return(df)
 }

@@ -11,6 +11,8 @@ percent(x, digits = 2, format = "f", ...)
 
 \item{digits}{An integer to define the number of dicimals, default is 2.}
 
+\item{format}{A string define the format argument for using the formatC function.}
+
 \item{\dots}{Arguments passed to \code{\link{formatC}}.}
 }
 \description{

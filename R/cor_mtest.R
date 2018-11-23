@@ -10,6 +10,7 @@
 #'
 #' @seealso Function \code{\link{cor.test}}
 #' @export
+#' @importFrom stats cor.test
 
 
 ######################################################################

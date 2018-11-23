@@ -4,6 +4,7 @@
 #'
 #' @param x A numeric vector.
 #' @param digits An integer to define the number of dicimals, default is 2.
+#' @param format A string define the format argument for using the formatC function.
 #' @param \dots Arguments passed to \code{\link{formatC}}.
 #' @seealso \code{\link{formatC}} and \code{\link{sprintf}}
 #' @examples

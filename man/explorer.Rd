@@ -13,6 +13,7 @@ explorer(path)
 \code{explorer} opens a file or folder on your Windows, Mac or Linux computer.
 }
 \examples{
+explorer(getwd())
 explorer("C:/Users/")
 explorer("/Users/")
 }
