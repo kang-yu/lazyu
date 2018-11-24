@@ -13,9 +13,8 @@ explorer(path)
 \code{explorer} opens a file or folder on your Windows, Mac or Linux computer.
 }
 \examples{
-explorer(getwd())
-explorer("C:/Users/")
-explorer("/Users/")
+# explorer(getwd())
+
 }
 \seealso{
 \code{\link[base]{shell}} and \code{\link[base]{system}}
