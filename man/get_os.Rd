@@ -6,10 +6,15 @@
 \usage{
 get_os()
 }
+\value{
+\item{os}{Returns a string indicating the operating systems, 'windows', 'linux', or 'osx'.}
+}
 \description{
 Get OS imformation.
 }
 \examples{
 get_os()
-which_os()
+}
+\seealso{
+Function \code{\link{which_os}}
 }

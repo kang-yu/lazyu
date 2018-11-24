@@ -1,7 +1,8 @@
 #' Get OS imformation.
+#' @return \item{os}{Returns a string indicating the operating systems, 'windows', 'linux', or 'osx'.}
 #' @examples
 #' get_os()
-#' which_os()
+#' @seealso Function \code{\link{which_os}}
 #' @export
 
 get_os <- function(){
@@ -18,4 +19,5 @@ get_os <- function(){
       os <- "linux"
   }
   tolower(os)
+  return(os)
 }

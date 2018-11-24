@@ -11,4 +11,5 @@ LazyData: true
 RoxygenNote: 6.1.1
 URL: http://github.com/kang-yu/lazyu
 BugReports: http://github.com/kang-yu/lazyu/issues
+Imports: plyr
 Suggests: testthat

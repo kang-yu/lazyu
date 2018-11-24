@@ -5,7 +5,7 @@
 #' @param obj.name R object name to be used to the list.
 #' @param overwrite logical value indicates whether overwrite object with the same name.
 #' @return
-#'   \item{list_new}
+#'   \item{l_new}{A new list with additions.}
 #' @seealso \code{\link{hcl}}
 #' @examples
 #' l <- list(c("a", "b"))
@@ -24,4 +24,5 @@ append_list <- function(l, obj, obj.name, overwrite = TRUE){
     l_new <- c(l, obj)
     names(l_new)[length(l_new)] <- obj.name
   }
+  return(l_new)
 }

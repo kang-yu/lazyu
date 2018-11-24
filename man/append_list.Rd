@@ -16,7 +16,7 @@ append_list(l, obj, obj.name, overwrite = TRUE)
 \item{overwrite}{logical value indicates whether overwrite object with the same name.}
 }
 \value{
-\item{list_new}
+\item{l_new}{A new list with additions.}
 }
 \description{
 Append R object to a list.

@@ -11,5 +11,7 @@ Get the OS imformation.
 }
 \examples{
 which_os()
-get_os()
+}
+\seealso{
+Function \code{\link{get_os}}
 }
