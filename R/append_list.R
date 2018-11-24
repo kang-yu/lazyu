@@ -16,7 +16,8 @@
 append_list <- function(l, obj, obj.name, overwrite = TRUE){
 
   if (!is.list(obj)) obj <- list(obj)
-  if (!is.null(l[[obj.name]]) & overwrite==TRUE){
+  # l[[obj.name]] may not be a list, but l[obj.name] is
+  if (!is.null(l[obj.name]) & overwrite==TRUE){
     l_new <- l
     l_new[obj.name] <- obj
   } else {

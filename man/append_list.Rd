@@ -2,12 +2,12 @@
 % Please edit documentation in R/append_list.R
 \name{append_list}
 \alias{append_list}
-\title{Append r object to a list}
+\title{Append R object to a list.}
 \usage{
-append_list(list, obj, obj.name, overwrite = TRUE)
+append_list(l, obj, obj.name, overwrite = TRUE)
 }
 \arguments{
-\item{list}{R list.}
+\item{l}{A R-list.}
 
 \item{obj}{R object to be appended to the list.}
 
@@ -19,12 +19,12 @@ append_list(list, obj, obj.name, overwrite = TRUE)
 \item{list_new}
 }
 \description{
-Append r object to a list
+Append R object to a list.
 }
 \examples{
-list <- list(c("a", "b"))
+l <- list(c("a", "b"))
 x <- list(c(1:5))
-append_list(list, x, "X")
+append_list(l, x, "X")
 }
 \seealso{
 \code{\link{hcl}}
